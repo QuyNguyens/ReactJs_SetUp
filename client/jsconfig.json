@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"],
+            "@components": ["src/components/*"],
+            "@pages": ["src/pages/*"],
+            "@router": ["src/router/*"],
+            "@contexts": ["src/contexts/*"],
+            "@controllers": ["src/controllers/*"],
+            "@assets": ["src/assets/*"],
+            "@reduxs": ["src/reduxs/*"],
+            "@stores": ["src/stores/*"],
+            "@style_component": ["src/style_component/*"]
+        }
+    }
+}
